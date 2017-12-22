@@ -1,0 +1,30 @@
+{
+    "name": "react-native-snippet",
+    "displayName": "React Native Snippet",
+    "description": "React Native Snippet, ReactJS, Redux",
+    "version": "0.0.1",
+    "icon": "images/logo.png",
+    "publisher": "jundat95",
+    "keywords": [
+        "snippets",
+        "react",
+        "redux",
+        "react-native",
+        "graphql",
+        "javascript"
+    ],
+    "engines": {
+        "vscode": "^1.19.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
