@@ -1,16 +1,15 @@
 {
     "name": "react-native-snippet",
     "displayName": "React Native Snippet",
-    "description": "React Native Snippet, ReactJS, Redux",
-    "version": "0.0.1",
+    "description": "React Native, StypeSheet, ReactJS, Redux Snippet",
+    "version": "0.2.0",
     "icon": "images/react-logo.png",
     "publisher": "jundat95",
     "keywords": [
-        "snippets",
-        "react",
-        "redux",
         "react-native",
-        "graphql",
+        "stypesheet",
+        "snippets",
+        "redux",
         "javascript"
     ],
     "engines": {

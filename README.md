@@ -1,15 +1,12 @@
-# React Native, ReactJS, Redux Snippet
+# VS Code React Native, StypeSheet, ReactJS, Redux Snippet
 
-[![Version](https://vsmarketplacebadge.apphb.com/version/)]
-(https://vsmarketplacebadge.apphb.com/version-short/)
-[![Install](https://vsmarketplacebadge.apphb.com/installs/]
-(https://vsmarketplacebadge.apphb.com/installs-short/)
-[![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/)]
-(https://vsmarketplacebadge.apphb.com/rating-short/)
+[![Version](https://vsmarketplacebadge.apphb.com/version/version/jundat95.react-native-snippet.svg)](https://vsmarketplacebadge.apphb.com/version-short/jundat95.react-native-snippet.svg)
+[![Install](https://vsmarketplacebadge.apphb.com/installs/jundat95.react-native-snippet.svg](https://vsmarketplacebadge.apphb.com/installs-short/jundat95.react-native-snippet.svg)
+[![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/jundat95.react-native-snippet.svg)](https://vsmarketplacebadge.apphb.com/rating-short/jundat95.react-native-snippet.svg)
 
-This extension provide you Javascript and React/Redux snippets in ES7 with babel plugins features for [Vs Code](https://code.visualstudio.com/)
+This extension provide you Javascript and React/Redux snippets in ES6, ES7 with babel plugins features for [Vs Code](https://code.visualstudio.com/)
 
-Here is direct link to marketplace [React Native, StypeSheet, ReactJS, Redux Snippet](https://marketplace.visualstudio.com/items?itemName=)
+Here is direct link to marketplace [React Native, StypeSheet, ReactJS, Redux Snippet](https://marketplace.visualstudio.com/items?itemName=jundat95.react-native-snippet.svg)
 
 ## Supported languages (file extensions)
 
