@@ -9,85 +9,117 @@
 
 This extension provide you Javascript and React/Redux snippets in ES7 with babel plugins features for [Vs Code](https://code.visualstudio.com/)
 
-Here is direct link to marketplace [React Native, ReactJS, Redux Snippet](https://marketplace.visualstudio.com/items?itemName=)
+Here is direct link to marketplace [React Native, StypeSheet, ReactJS, Redux Snippet](https://marketplace.visualstudio.com/items?itemName=)
 
 ## Supported languages (file extensions)
 
 * JavaScript (.js)
+* React Native (.jsx)
+* React Native StypeSheet (.jsx)
+* Redux (.jsx)
 * JavaScript React (.jsx)
+
 
 ## Snippets info
 
-Every space inside `{ }` and `( )` means that this is pushed into next line :)
+Every space inside `{ };` and `( )` means that this is pushed into next line :)
 `$` represent each step after `tab`.
+
 
 ## Basic Methods
 
 |Prefix|Method|
 |-------:|-------|
-|`imp→`|`import moduleName from 'module'`|
-|`imn→`|`import 'module'`|
-|`imd→`|`import { destructuredModule } from 'module'`|
-|`ime→`|`import * as alias from 'module'`|
-|`ima→`|`import { originalName as aliasName} from 'module'`|
+|`imp→`|`import moduleName from 'module';`|
+|`imn→`|`import 'module';`|
+|`imd→`|`import { destructuredModule } from 'module';`|
+|`ime→`|`import * as alias from 'module';`|
+|`ima→`|`import { originalName as aliasName} from 'module';`|
 |`exp→`|`export default moduleName`|
-|`exd→`|`export { destructuredModule } from 'module'`|
-|`exa→`|`export { originalName as aliasName} from 'module'`|
-|`enf→`|`export const functionName = (params) => { }`|
-|`edf→`|`export default (params) => { }`|
-|`met→`|`methodName = (params) => { }`|
-|`fre→`|`arrayName.forEach(element => { }`|
-|`fof→`|`for(let itemName of objectName { }`|
-|`fin→`|`for(let itemName in objectName { }`|
-|`anfn→`|`(params) => { }`|
-|`nfn→`|`const functionName = (params) => { }`|
+|`exd→`|`export { destructuredModule } from 'module';`|
+|`exa→`|`export { originalName as aliasName} from 'module';`|
+|`enf→`|`export const functionName = (params) => { };`|
+|`edf→`|`export default (params) => { };`|
+|`met→`|`methodName = (params) => { };`|
+|`fre→`|`arrayName.forEach(element => { };`|
+|`fof→`|`for(let itemName of objectName { };`|
+|`fin→`|`for(let itemName in objectName { };`|
+|`anfn→`|`(params) => { };`|
+|`nfn→`|`const functionName = (params) => { };`|
 |`dob→`|`const {propName} = objectToDescruct`|
 |`dar→`|`const [propName] = arrayToDescruct`|
 |`sti→`|`setInterval(() => { }, intervalTime`|
 |`sto→`|`setTimeout(() => { }, delayTime`|
-|`prom→`|`return new Promise((resolve, reject) => { }`|
+|`prom→`|`return new Promise((resolve, reject) => { };`|
 |`cmmb→`|`comment block`|
 
-## React
-
-|Prefix|Method|
-|-------:|-------|
-|`imr→`|`import React from 'react'`|
-|`imrc→`|`import React, { Component } from 'react'`|
-|`imrcp→`|`import React, { Component } from 'react' & import PropTypes from 'prop-types'`|
-|`imrpc→`|`import React, { PureComponent } from 'react'`|
-|`imrpcp→`|`import React, { PureComponent } from 'react' & import PropTypes from 'prop-types'`|
-|`redux→`|`import { connect } from 'react-redux'`|
-|`rconst→`|`constructor(props) with this.state`|
-|`rconc→`|`constructor(props, context) with this.state`|
-|`est→`|`this.state = { }`|
-|`cwm→`|`componentWillMount = () => { }`|
-|`cdm→`|`componentDidMount = () => { }`|
-|`cwr→`|`componentWillReceiveProps = (nextProps) => { }`|
-|`scu→`|`shouldComponentUpdate = (nextProps, nextState) => { }`|
-|`cwup→`|`componentWillUpdate = (nextProps, nextState) => { }`|
-|`cdup→`|`componentDidUpdate = (prevProps, prevState) => { }`|
-|`cwun→`|`componentWillUnmount = () => { }`|
-|`ren→`|`render() { return( ) }`|
-|`sst→`|`this.setState({ })`|
-|`ssf→`|`this.setState((state, props) => return { })`|
-|`props→`|`this.props.propName`|
-|`state→`|`this.state.stateName`|
 
 ## React Native
 
 |Prefix|Method|
 |-------:|-------|
-|`imrn→`|`import { $1 } from 'react-native'`|
+|`just→`|`import { $1 } from 'react-native';`|
+
+
+## StypeSheet
+
+|Prefix|Method|
+|-------:|-------|
+|`just→`|`justifyContent: '';`|
+|`align→`|`alignItems: '${1}';`|
+|`as→`|`aspectRatio: '';`|
+|`border→`|`borderWidth: ;`|
+|`flex→`|`flexDirection: '';`|
+|`h→`|`height: ;`|
+|`w→`|`width: ;`|
+|`l→`|`left: '';`|
+|`margin→`|`marginHorizontal: '';`|
+|`max→`|`maxWidth: ;`|
+|`min→`|`minWidth: ;`|
+|`over→`|`overflow: ;`|
+|`padding→`|`paddingHorizontal: ;`|
+|`pos→`|`position: ;`|
+|`ri→`|`right: ;`|
+|`z→`|`zIndex: ;`|
+|`di→`|`direction: ;`|
+
+
+## React
+
+|Prefix|Method|
+|-------:|-------|
+|`imr→`|`import React from 'react';`|
+|`imrc→`|`import React, { Component } from 'react';`|
+|`imrcp→`|`import React, { Component } from 'react' & import PropTypes from 'prop-types';`|
+|`imrpc→`|`import React, { PureComponent } from 'react';`|
+|`imrpcp→`|`import React, { PureComponent } from 'react' & import PropTypes from 'prop-types';`|
+|`redux→`|`import { connect } from 'react-redux';`|
+|`rconst→`|`constructor(props) with this.state`|
+|`rconc→`|`constructor(props, context) with this.state`|
+|`est→`|`this.state = { };`|
+|`cwm→`|`componentWillMount = () => { };`|
+|`cdm→`|`componentDidMount = () => { };`|
+|`cwr→`|`componentWillReceiveProps = (nextProps) => { };`|
+|`scu→`|`shouldComponentUpdate = (nextProps, nextState) => { };`|
+|`cwup→`|`componentWillUpdate = (nextProps, nextState) => { };`|
+|`cdup→`|`componentDidUpdate = (prevProps, prevState) => { };`|
+|`cwun→`|`componentWillUnmount = () => { };`|
+|`ren→`|`render() { return( ) };`|
+|`sst→`|`this.setState({ })`|
+|`ssf→`|`this.setState((state, props) => return { })`|
+|`props→`|`this.props.propName`|
+|`state→`|`this.state.stateName`|
+
 
 ## Redux
 
 |Prefix|Method|
 |-------:|-------|
 |`rxaction→`|`redux action template`|
-|`rxconst→`|`export const $1 = '$1'`|
+|`rxconst→`|`export const $1 = '$1';`|
 |`rxreducer→`|`redux reducer template`|
 |`rxselect→`|`redux selector template`|
+
 
 ## PropTypes
 
@@ -123,7 +155,7 @@ Every space inside `{ }` and `( )` means that this is pushed into next line :)
 |`ptshr→`|`PropTypes.shape({ }).isRequired`|
 
 ## GraphQL
-|`graphql→`|`import { compose, graphql } from 'react-apollo'`|
+|`graphql→`|`import { compose, graphql } from 'react-apollo';`|
 ### `expgql`
 ```js
 export default compose(
