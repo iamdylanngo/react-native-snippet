@@ -1,4 +1,4 @@
-# VS Code React Native, StypeSheet, ReactJS, Redux Snippet
+# VS Code React Native, StyleSheet, ReactJS, Redux Snippet
 
 [![Version](https://vsmarketplacebadge.apphb.com/version/version/jundat95.react-native-snippet.svg)](https://vsmarketplacebadge.apphb.com/version-short/jundat95.react-native-snippet.svg)
 [![Install](https://vsmarketplacebadge.apphb.com/installs/jundat95.react-native-snippet.svg](https://vsmarketplacebadge.apphb.com/installs-short/jundat95.react-native-snippet.svg)
@@ -12,7 +12,7 @@ Here is direct link to marketplace [React Native, StypeSheet, ReactJS, Redux Sni
 
 * JavaScript (.js)
 * React Native (.jsx)
-* React Native StypeSheet (.jsx)
+* React Native StyleSheet (.jsx)
 * Redux (.jsx)
 * JavaScript React (.jsx)
 
@@ -58,7 +58,7 @@ Every space inside `{ };` and `( )` means that this is pushed into next line :)
 |`just→`|`import { $1 } from 'react-native';`|
 
 
-## StypeSheet
+## StyleSheet
 
 |Prefix|Method|
 |-------:|-------|

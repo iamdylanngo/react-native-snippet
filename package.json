@@ -2,7 +2,7 @@
     "name": "react-native-snippet",
     "displayName": "React Native Snippet",
     "description": "React Native, StypeSheet, ReactJS, Redux Snippet",
-    "version": "0.2.0",
+    "version": "0.2.2",
     "icon": "images/react-logo.png",
     "publisher": "jundat95",
     "keywords": [
