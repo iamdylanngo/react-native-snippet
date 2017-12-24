@@ -6,7 +6,7 @@
 
 This extension provide you Javascript and React/Redux snippets in ES6, ES7 with babel plugins features for [Vs Code](https://code.visualstudio.com/)
 
-Here is direct link to marketplace [React Native, StypeSheet, ReactJS, Redux Snippet](https://marketplace.visualstudio.com/items?itemName=jundat95.react-native-snippet.svg)
+Here is direct link to marketplace [React Native, StyleSheet, ReactJS, Redux Snippet](https://marketplace.visualstudio.com/items?itemName=jundat95.react-native-snippet.svg)
 
 ## Supported languages (file extensions)
 
@@ -55,7 +55,10 @@ Every space inside `{ };` and `( )` means that this is pushed into next line :)
 
 |Prefix|Method|
 |-------:|-------|
-|`just→`|`import { $1 } from 'react-native';`|
+|`inr→`|`import React from 'react';`|
+|`inrc→`|`import React, { Component } from 'react';`|
+|`inrn→`|`import { $1 } from 'react-native';`|
+|`imrpc→`|`import React, { PureComponent } from 'react';`|
 
 
 ## StyleSheet
@@ -122,6 +125,9 @@ Every space inside `{ };` and `( )` means that this is pushed into next line :)
 
 |Prefix|Method|
 |-------:|-------|
+|`ipt`|`import PropTypes from 'prop-types';`|
+|`pt→`|`Component.PropTypes = {};`|
+|`dfp`|`Component.defaultProps = {};`|
 |`pta→`|`PropTypes.array`|
 |`ptar→`|`PropTypes.array.isRequired`|
 |`ptb→`|`PropTypes.bool`|

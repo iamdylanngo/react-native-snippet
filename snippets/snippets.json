@@ -5,7 +5,7 @@
     "prefix": "rnc",
     "body": [
       "import React, { Component } from 'react';",
-      "import { Text, View } from 'react-native';",
+      "import {  View, Text, } from 'react-native';",
       "",
       "export default class ${1:componentName} extends Component {",
       "  render() {",
@@ -13,33 +13,57 @@
       "      <View>",
       "        <Text> ${2:textInComponent} </Text>",
       "      </View>",
-      "    )",
+      "    );",
       "  }",
-      "};"
+      "}",
+      ""
     ]
   },
   "reactNativeComponentExport": {
     "prefix": "rnce",
     "body": [
       "import React, { Component } from 'react';",
-      "import { Text, View } from 'react-native';",
+      "import { View, Text,  } from 'react-native';",
       "",
-      "export class ${1:componentName} extends Component {",
+      "class ${1:componentName} extends Component {",
       "  render() {",
       "    return (",
       "      <View>",
       "        <Text> ${2:textInComponent} </Text>",
       "      </View>",
-      "    )",
+      "    );",
       "  }",
       "}",
       "",
-      "export default ${1:componentName};"
+      "export default ${1:componentName};",
+      ""
     ]
   },
-  "reactNativeImport": {
+  "Import react": {
+    "prefix": "imr",
+    "body": [
+      "import React from 'react';"
+    ],
+    "description": "Import react"
+  },
+  "Import react component": {
+    "prefix": "imrc",
+    "body": [
+      "import React, { Component } from 'react';"
+    ],
+    "description": "Import react component"
+  },
+  "Import react pure component": {
+    "prefix": "imrpc",
+    "body": [
+      "import React, { PureComponent } from 'react';"
+    ],
+    "description": "Import react PureComponent"
+  },
+  "Import React-Native Element": {
     "prefix": "imrn",
-    "body": "import { ${1:moduleName} } from 'react-native';"
+    "body": "import { $1 } from 'react-native';",
+    "description": "Import React-Native Element"
   },
   // ==========================================================================================================================
   // Style Sheet
@@ -48,7 +72,7 @@
     "body": [
       "const styles = StyleSheet.create({",
       "\t$1",
-      "})"
+      "});"
     ]
   },
   "justifyContent": {
@@ -90,6 +114,10 @@
   "borderWidth": {
     "prefix": "border",
     "body": "borderWidth: ${1},"
+  },
+  "backgroundColor": {
+    "prefix": "bac",
+    "body": "backgroundColor: ${1},"
   },
   "flex": {
     "prefix": "flex",
@@ -222,6 +250,10 @@
   "direction": {
     "prefix": "di",
     "body": "direction: ${1},"
+  },
+  "barStyle": {
+    "prefix": "bar",
+    "body": "barStyle = '${1:light-content}' "
   },
   
   // ==========================================================================================================================
@@ -931,6 +963,29 @@
 
   // ==========================================================================================================================
   // PropTypes
+  "ImportPropTypes": {
+    "prefix": "ipt",
+    "body": "import PropTypes from 'prop-types';",
+    "description": "Import PropTypes"
+  },
+  "PropTypes": {
+    "prefix": "pt",
+    "body": [
+      "${1}.PropTypes = {",
+      "",
+      "};"
+    ],
+    "description": "Create PropTypes"
+  },
+  "defaultProps": {
+    "prefix": "dfp",
+    "body": [
+      "${1}.defaultProps = {",
+      "",
+      "};"
+    ],
+    "description": "Create Default Props"
+  },
   "propTypeArray": {
     "prefix": "pta",
     "body": "PropTypes.array,",
