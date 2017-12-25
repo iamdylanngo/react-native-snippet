@@ -39,20 +39,6 @@
       ""
     ]
   },
-  "Import react": {
-    "prefix": "imr",
-    "body": [
-      "import React from 'react';"
-    ],
-    "description": "Import react"
-  },
-  "Import react component": {
-    "prefix": "imrc",
-    "body": [
-      "import React, { Component } from 'react';"
-    ],
-    "description": "Import react component"
-  },
   "Import react pure component": {
     "prefix": "imrpc",
     "body": [
@@ -142,6 +128,22 @@
   "flexWrap": {
     "prefix": "flex",
     "body": "flexWrap: '${1}',"
+  },
+  "fontSize": {
+    "prefix": "fo",
+    "body": "fontSize: ${1},"
+  },
+  "fontStyle": {
+    "prefix": "fo",
+    "body": "fontStyle: '${1:normal}',"
+  },
+  "fontFamily": {
+    "prefix": "fo",
+    "body": "fontFamily: '${1}',"
+  },
+  "fontWeight": {
+    "prefix": "fo",
+    "body": "fontWeight: '${1:normal}',"
   },
   "height": {
     "prefix": "h",
@@ -781,7 +783,7 @@
       "export default (${1:params}) => {",
       "  $0",
       "};",
-      ";"
+      ""
     ],
     "description": "Export default function in ES7 syntax"
   },
@@ -791,7 +793,7 @@
       "${1:methodName} = (${2:params}) => {",
       "  ${0};",
       "};",
-      ";"
+      ""
     ],
     "description": "Creates a method inside a class in ES7 syntax"
   },
@@ -801,7 +803,7 @@
       "get ${1:propertyName} = () => {",
       "  return this.${0};",
       "};",
-      ";"
+      ""
     ],
     "description": "Creates a getter property inside a class in ES7 syntax"
   },
@@ -811,7 +813,7 @@
       "set ${1:propertyName} = (${2:value}) => {",
       "  ${0};",
       "}",
-      ";"
+      ""
     ],
     "description": "Creates a setter property inside a class in ES7 syntax"
   },
@@ -821,7 +823,7 @@
       "${1:array}.forEach(${2:currentItem} => {",
       "  ${0}",
       "})",
-      ";"
+      ""
     ],
     "description": "Creates a forEach statement in ES7 syntax"
   },
@@ -831,7 +833,7 @@
       "for(let ${1:item} of ${2:object}) {",
       "  ${0}",
       "}",
-      ";"
+      ""
     ],
     "description": "Iterating over property names of iterable objects"
   },
@@ -841,7 +843,7 @@
       "for(let ${1:item} in ${2:object}) {",
       "  ${0}",
       "}",
-      ";"
+      ""
     ],
     "description": "Iterating over property values of iterable objects"
   },
@@ -851,7 +853,7 @@
       "(${1:params}) => {",
       "  ${2}",
       "}",
-      ";"
+      ""
     ],
     "description": "Creates an anonymous function in ES7 syntax"
   },
@@ -861,7 +863,7 @@
       "const ${1:name} = (${2:params}) => {",
       "  ${3}",
       "}",
-      ";"
+      ""
     ],
     "description": "Creates a named function in ES7 syntax"
   },
@@ -881,7 +883,7 @@
       "setInterval(() => {",
       "  ${2}",
       "}, ${0:intervalInms})",
-      ";"
+      ""
     ],
     "description": "Executes the given function at specified intervals in ES7 syntax"
   },
@@ -891,7 +893,7 @@
       "setTimeout(() => {",
       "  ${2}",
       "}, ${1:delayInms})",
-      ";"
+      ""
     ],
     "description": "Executes the given function after the specified delay in ES7 syntax"
   },
