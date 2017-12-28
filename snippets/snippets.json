@@ -63,199 +63,333 @@
   },
   "justifyContent": {
     "prefix": "just",
-    "body": "justifyContent: '${1:center}',"
+    "body": "justifyContent: '${1:center}',",
+    "description": "justifyContent"
   },
   "alignItems": {
     "prefix": "align",
-    "body": "alignItems: '${1:center}',"
+    "body": "alignItems: '${1:center}',",
+    "description": "alignItems"
   },
   "alignSelf": {
     "prefix": "align",
-    "body": "alignSelf: '${1:center}',"
+    "body": "alignSelf: '${1:center}',",
+    "description": "alignSelf"
   },
   "alignContent": {
     "prefix": "align",
-    "body": "alignContent: '${1}',"
+    "body": "alignContent: '${1}',",
+    "description": "alignContent"
   },
   "aspectRatio": {
     "prefix": "as",
-    "body": "aspectRatio: '${1}',"
+    "body": "aspectRatio: '${1}',",
+    "description": "aspectRatio"
   },
   "borderBottomWidth": {
     "prefix": "border",
-    "body": "borderBottomWidth: ${1},"
+    "body": "borderBottomWidth: ${1},",
+    "description": "borderBottomWidth"
   },
   "borderLeftWidth": {
     "prefix": "border",
-    "body": "borderLeftWidth: ${1},"
+    "body": "borderLeftWidth: ${1},",
+    "description": "borderLeftWidth"
   },
   "borderRightWidth": {
     "prefix": "border",
-    "body": "borderRightWidth: ${1},"
+    "body": "borderRightWidth: ${1},",
+    "description": "borderRightWidth"
   },
   "borderTopWidth": {
     "prefix": "border",
-    "body": "borderTopWidth: ${1},"
+    "body": "borderTopWidth: ${1},",
+    "description": "borderTopWidth"
   },
   "borderWidth": {
     "prefix": "border",
-    "body": "borderWidth: ${1},"
+    "body": "borderWidth: ${1},",
+    "description": "borderWidth"
+  },
+  "borderColor": {
+    "prefix": "border",
+    "body": "borderColor: ${1},",
+    "description": "borderColor"
+  },
+  "borderRadius": {
+    "prefix": "border",
+    "body": "borderRadius: ${1},",
+    "description": "borderRadius"
+  },
+  "borderLeftColor": {
+    "prefix": "border",
+    "body": "borderLeftColor: ${1},",
+    "description": "borderLeftColor"
+  },
+  "borderRightColor": {
+    "prefix": "border",
+    "body": "borderRightColor: ${1},",
+    "description": "borderRightColor"
+  },
+  "borderTopColor": {
+    "prefix": "border",
+    "body": "borderTopColor: ${1},",
+    "description": "borderTopColor"
+  },
+  "borderBottomColor": {
+    "prefix": "border",
+    "body": "borderBottomColor: ${1},",
+    "description": "borderBottomColor"
+  },
+  "borderBottomLeftRadius": {
+    "prefix": "border",
+    "body": "borderBottomLeftRadius: ${1},",
+    "description": "borderBottomLeftRadius"
+  },
+  "borderBottomRightRadius": {
+    "prefix": "border",
+    "body": "borderBottomRightRadius: ${1},",
+    "description": "borderBottomRightRadius"
+  },
+  "borderTopLeftRadius": {
+    "prefix": "border",
+    "body": "borderTopLeftRadius: ${1},",
+    "description": "borderTopLeftRadius"
+  },
+  "borderTopRightRadius": {
+    "prefix": "border",
+    "body": "borderTopRightRadius: ${1},",
+    "description": "borderTopRightRadius"
   },
   "backgroundColor": {
     "prefix": "bac",
-    "body": "backgroundColor: ${1},"
+    "body": "backgroundColor: ${1},",
+    "description": "backgroundColor"
+  },
+  "display": {
+    "prefix": "di",
+    "body": "display: '${1:none}',",
+    "description": "display"
+  },
+  "opacity": {
+    "prefix": "op",
+    "body": "opacity: ${1},",
+    "description": "opacity"
+  },
+  "shadowColor": {
+    "prefix": "sha",
+    "body": "shadowColor: '${1:none}',",
+    "description": "shadowColor"
+  },
+  "shadowOffset": {
+    "prefix": "sha",
+    "body": "shadowOffset: ${1},",
+    "description": "shadowOffset"
+  },
+  "shadowOpacity": {
+    "prefix": "sha",
+    "body": "shadowOpacity: ${1},",
+    "description": "shadowOpacity"
+  },
+  "shadowRadius": {
+    "prefix": "sha",
+    "body": "shadowRadius: ${1},",
+    "description": "shadowRadius"
+  },
+  "elevation": {
+    "prefix": "e",
+    "body": "elevation: ${1},",
+    "description": "elevation"
   },
   "flex": {
     "prefix": "flex",
-    "body": "flex: ${1},"
+    "body": "flex: ${1},",
+    "description": "flex"
   },
   "flexBasis": {
     "prefix": "flex",
-    "body": "flexBasis: '${1}',"
+    "body": "flexBasis: '${1}',",
+    "description": "flexBasis"
   },
   "flexDirection": {
     "prefix": "flex",
-    "body": "flexDirection: '${1:column}',"
+    "body": "flexDirection: '${1:column}',",
+    "description": "flexDirection"
   },
   "flexGrow": {
     "prefix": "flex",
-    "body": "flexGrow: '${1}',"
+    "body": "flexGrow: '${1}',",
+    "description": "flexGrow"
   },
   "flexShrink": {
     "prefix": "flex",
-    "body": "flexShrink: '${1}',"
+    "body": "flexShrink: '${1}',",
+    "description": "flexShrink"
   },
   "flexWrap": {
     "prefix": "flex",
-    "body": "flexWrap: '${1}',"
+    "body": "flexWrap: '${1}',",
+    "description": "flexWrap"
   },
   "fontSize": {
     "prefix": "fo",
-    "body": "fontSize: ${1},"
+    "body": "fontSize: ${1},",
+    "description": "fontSize"
   },
   "fontStyle": {
     "prefix": "fo",
-    "body": "fontStyle: '${1:normal}',"
+    "body": "fontStyle: '${1:normal}',",
+    "description": "fontStyle"
   },
   "fontFamily": {
     "prefix": "fo",
-    "body": "fontFamily: '${1}',"
+    "body": "fontFamily: '${1}',",
+    "description": "fontFamily"
   },
   "fontWeight": {
     "prefix": "fo",
-    "body": "fontWeight: '${1:normal}',"
+    "body": "fontWeight: '${1:normal}',",
+    "description": "fontWeight"
   },
   "height": {
     "prefix": "h",
-    "body": "height: ${1},"
+    "body": "height: ${1},",
+    "description": "height"
   },
   "left": {
     "prefix": "l",
-    "body": "left: ${1},"
+    "body": "left: ${1},",
+    "description": "left"
   },
   "margin": {
     "prefix": "margin",
-    "body": "margin: '${1}',"
+    "body": "margin: '${1}',",
+    "description": "margin"
   },
   "marginBottom": {
     "prefix": "margin",
-    "body": "marginBottom: ${1},"
+    "body": "marginBottom: ${1},",
+    "description": "marginBottom"
   },
   "marginHorizontal": {
     "prefix": "margin",
-    "body": "marginHorizontal: '${1}',"
+    "body": "marginHorizontal: '${1}',",
+    "description": "marginHorizontal"
   },
   "marginLeft": {
     "prefix": "margin",
-    "body": "marginLeft: ${1},"
+    "body": "marginLeft: ${1},",
+    "description": "marginLeft"
   },
   "marginRight": {
     "prefix": "margin",
-    "body": "marginRight: ${1},"
+    "body": "marginRight: ${1},",
+    "description": "marginRight"
   },
   "marginTop": {
     "prefix": "margin",
-    "body": "marginTop: ${1},"
+    "body": "marginTop: ${1},",
+    "description": "marginTop"
   },
   "marginVertical": {
     "prefix": "margin",
-    "body": "marginVertical: '${1}',"
+    "body": "marginVertical: '${1}',",
+    "description": "marginVertical"
   },
   "maxHeight": {
     "prefix": "max",
-    "body": "maxHeight: ${1},"
+    "body": "maxHeight: ${1},",
+    "description": "maxHeight"
   },
   "maxWidth": {
     "prefix": "max",
-    "body": "maxWidth: ${1},"
+    "body": "maxWidth: ${1},",
+    "description": "maxWidth"
   },
   "minHeight": {
     "prefix": "min",
-    "body": "minHeight: ${1},"
+    "body": "minHeight: ${1},",
+    "description": "minHeight"
   },
   "minWidth": {
     "prefix": "min",
-    "body": "minWidth: ${1},"
+    "body": "minWidth: ${1},",
+    "description": "minWidth"
   },
   "overflow": {
     "prefix": "over",
-    "body": "overflow: '${1}',"
+    "body": "overflow: '${1}',",
+    "description": "overflow"
   },
   "padding": {
     "prefix": "padding",
-    "body": "padding: ${1},"
+    "body": "padding: ${1},",
+    "description": "padding"
   },
   "paddingBottom": {
     "prefix": "padding",
-    "body": "paddingBottom: ${1},"
+    "body": "paddingBottom: ${1},",
+    "description": "paddingBottom"
   },
   "paddingHorizontal": {
     "prefix": "padding",
-    "body": "paddingHorizontal: ${1},"
+    "body": "paddingHorizontal: ${1},",
+    "description": "paddingHorizontal"
   },
   "paddingLeft": {
     "prefix": "padding",
-    "body": "paddingLeft: ${1},"
+    "body": "paddingLeft: ${1},",
+    "description": "paddingLeft"
   },
   "paddingRight": {
     "prefix": "padding",
-    "body": "paddingRight: ${1},"
+    "body": "paddingRight: ${1},",
+    "description": "paddingRight"
   },
   "paddingTop": {
     "prefix": "padding",
-    "body": "paddingTop: ${1},"
+    "body": "paddingTop: ${1},",
+    "description": "paddingTop"
   },
   "paddingVertical": {
     "prefix": "padding",
-    "body": "paddingVertical: ${1},"
+    "body": "paddingVertical: ${1},",
+    "description": "paddingVertical"
   },
   "position": {
     "prefix": "pos",
-    "body": "position: ${1},"
+    "body": "position: ${1},",
+    "description": "position"
   },
   "right": {
     "prefix": "ri",
-    "body": "right: ${1},"
+    "body": "right: ${1},",
+    "description": "right"
   },
   "top": {
     "prefix": "top",
-    "body": "top: ${1},"
+    "body": "top: ${1},",
+    "description": "top"
   },
   "width": {
     "prefix": "w",
-    "body": "width: ${1},"
+    "body": "width: ${1},",
+    "description": "width"
   },
   "zIndex": {
     "prefix": "z",
-    "body": "zIndex: ${1},"
+    "body": "zIndex: ${1},",
+    "description": "zIndex"
   },
   "direction": {
     "prefix": "di",
-    "body": "direction: ${1},"
+    "body": "direction: ${1},",
+    "description": "direction"
   },
   "barStyle": {
     "prefix": "bar",
-    "body": "barStyle = '${1:light-content}' "
+    "body": "barStyle = '${1:light-content}'",
+    "description": "barStyle"
   },
   
   // ==========================================================================================================================
@@ -311,14 +445,16 @@
     "body": [
       "import React from 'react';",
       ""
-    ]
+    ],
+    "description": "import React from 'react';"
   },
   "import React, { Component }": {
     "prefix": "imrc",
     "body": [
       "import React, { Component } from 'react';",
       ""
-    ]
+    ],
+    "description": "import React, { Component } from 'react';"
   },
   "import React, { Component } & PropTypes": {
     "prefix": "imrcp",
@@ -333,7 +469,8 @@
     "body": [
       "import React, { PureComponent } from 'react';",
       ""
-    ]
+    ],
+    "description": "import React, { PureComponent } from 'react';"
   },
   "import React, { PureComponent } & PropTypes": {
     "prefix": "imrpcp",
@@ -348,7 +485,9 @@
     "body": [
       "import { connect } from 'react-redux';",
       ""
-    ]
+    ],
+    "description": "import { connect } from 'react-redux';"
+    
   },
   "reactClassCompoment": {
     "prefix": "rcc",
@@ -968,7 +1107,7 @@
   "ImportPropTypes": {
     "prefix": "ipt",
     "body": "import PropTypes from 'prop-types';",
-    "description": "Import PropTypes"
+    "description": "import PropTypes from 'prop-types';"
   },
   "PropTypes": {
     "prefix": "pt",
