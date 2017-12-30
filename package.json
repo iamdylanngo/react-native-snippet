@@ -2,7 +2,7 @@
     "name": "react-native-snippet",
     "displayName": "React Native Snippet",
     "description": "React Native, StyleSheet, ReactJS, Redux Snippet",
-    "version": "0.3.1",
+    "version": "0.3.7",
     "icon": "images/react-native-logo.png",
     "publisher": "jundat95",
     "keywords": [
@@ -22,7 +22,23 @@
         "snippets": [
             {
                 "language": "javascript",
-                "path": "./snippets/snippets.json"
+                "path": "./snippets/snippets-react-native-javascript.json"
+            },
+            {
+                "language": "javascriptreact",
+                "path": "./snippets/snippets-react-native-javascript.json"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/snippets-react-native-typescript.json"
+            },
+            {
+                "language": "typescriptreact",
+                "path": "./snippets/snippets-react-native-typescript.json"
+            },
+            {
+                "language": "jsx",
+                "path": "./snippets/snippets-react-native-javascript.json"
             }
         ]
     }

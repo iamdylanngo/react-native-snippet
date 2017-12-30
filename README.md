@@ -1,20 +1,22 @@
-# VS Code React Native, StyleSheet, ReactJS, Redux Snippet
+# VS Code React Native, React Native Typescript, StyleSheet, ReactJS, Redux Snippet
 
 [![Version](https://vsmarketplacebadge.apphb.com/version-short/jundat95.react-native-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=jundat95.react-native-snippet)
 [![Install](https://vsmarketplacebadge.apphb.com/installs-short/jundat95.react-native-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=jundat95.react-native-snippet)
 [![Ratings](https://vsmarketplacebadge.apphb.com/rating-short/jundat95.react-native-snippet.svg)](https://marketplace.visualstudio.com/items?itemName=jundat95.react-native-snippet)
 
-This extension provide you Javascript and React/Redux snippets in ES6, ES7 with babel plugins features for [Vs Code](https://code.visualstudio.com/)
+This extension provide you Javascript and React/Redux snippets in ES6, ES7, Typescript with babel plugins features for [Vs Code](https://code.visualstudio.com/)
 
 Here is direct link to marketplace [React Native, StyleSheet, ReactJS, Redux Snippet](https://marketplace.visualstudio.com/items?itemName=jundat95.react-native-snippet)
 
 ## Supported languages (file extensions)
 
 * JavaScript (.js)
+* ReactJs (.js)
+* Redux (.js)
 * React Native (.jsx)
 * React Native StyleSheet (.jsx)
-* Redux (.jsx)
-* JavaScript React (.jsx)
+* Typescript ReactJS (.tsx)
+* Typescript React Native (.tsx)
 
 
 ## Snippets info
@@ -51,7 +53,7 @@ Every space inside `{ };` and `( )` means that this is pushed into next line :)
 |`cmmb→`|`comment block`|
 
 
-## React Native
+## React Native JavaScript
 
 |Prefix|Method|
 |-------:|-------|
@@ -83,6 +85,9 @@ Every space inside `{ };` and `( )` means that this is pushed into next line :)
 |`z→`|`zIndex: ;`|
 |`di→`|`direction: ;`|
 |`back→`|`backgroundColor: ;`|
+|`sha→`|`shadowColor: ;`|
+|`op→`|`opacity: ;`|
+|`e→`|`elevation: ;`|
 
 ## React
 
@@ -450,6 +455,125 @@ export class $1 extends Component {
 
 export default $1
 ```
+
+
+## Typescript React Native
+
+### `tsrnc`
+
+```javascript
+import * as React from 'react';
+import { View, StyleSheet, Text, } from 'react-native';
+
+export interface $1Props {
+}
+
+export default class $1 extends React.Component<$1Props, any> {
+  render() {
+    return (
+      <View>
+         <Text>
+           
+         </Text>
+      </View>
+    );
+  }
+}
+```
+
+
+### `tsrnc`
+
+```javascript
+import * as React from 'react';
+import { View, StyleSheet, Text, } from 'react-native';
+
+export interface $1Props {
+}
+
+export interface $1State {
+}
+
+export default class $1 extends React.Component<$1Props, $1State> {
+  constructor(props: $1Props) {
+    super(props);
+        this.state = {
+    }
+  }
+
+  render() {
+    return (
+      <View>
+         <Text>
+           $1
+         </Text>
+      </View>
+    );
+  }
+}
+```
+
+
+### `tsrnpc`
+
+```javascript
+import * as React from 'react';
+import { View, StyleSheet, Text, } from 'react-native';
+
+export interface $1Props {
+}
+
+export interface $1State {
+}
+
+export default class $1 extends React.Component<$1Props, $1State> {
+  constructor(props: $1Props) {
+    super(props);
+        this.state = {
+    }
+  }
+
+  render() {
+    return (
+      <View>
+         <Text>
+           $1
+         </Text>
+      </View>
+    );
+  }
+}
+```
+
+
+### `tsrnc`
+
+```javascript
+import * as React from 'react';
+import { View, StyleSheet, Text, } from 'react-native';
+import { connect } from 'react-redux';
+
+export interface $1Props {
+}
+
+class $1 extends React.Component<$1Props, any> {
+    render() {
+        return (
+            <View>
+                <Text>$1</Text>
+            </View>
+        );
+    }
+}
+
+const mapState2Props = state => {
+    return {
+    };
+}
+
+export default connect(mapState2Props)($1);
+```
+
 
 ## Others
 
