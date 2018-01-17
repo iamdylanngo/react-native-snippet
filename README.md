@@ -13,7 +13,7 @@ Here is direct link to marketplace [React Native, StyleSheet, ReactJS, Redux Sni
 
 ![Snippet React Native Example](https://media.giphy.com/media/3ohc18h5gpGws53koE/giphy.gif)
 
-![Snippet React Native Component](https://media.giphy.com/media/xULW8KaGHOPhUJmCDm/giphy.gif)
+![Snippet React Native Component](https://media.giphy.com/media/3ohc0PSUMChSSDw2OI/giphy.gif)
 
 
 ## Supported languages (file extensions)
