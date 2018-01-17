@@ -8,6 +8,15 @@ This extension provide you Javascript and React/Redux snippets in ES6, ES7, Type
 
 Here is direct link to marketplace [React Native, StyleSheet, ReactJS, Redux Snippet](https://marketplace.visualstudio.com/items?itemName=jundat95.react-native-snippet)
 
+## Tutorial 
+
+Snippet import ReactJs, React Native
+![Snippet React Native Example](https://media.giphy.com/media/3ohc18h5gpGws53koE/giphy.gif)
+
+Snippet import React Native Component
+![Snippet React Native Component](https://media.giphy.com/media/xULW8KaGHOPhUJmCDm/giphy.gif)
+
+
 ## Supported languages (file extensions)
 
 * JavaScript (.js)
