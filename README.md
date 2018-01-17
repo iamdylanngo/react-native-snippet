@@ -57,9 +57,9 @@ Every space inside `{ };` and `( )` means that this is pushed into next line :)
 
 |Prefix|Method|
 |-------:|-------|
-|`inr→`|`import React from 'react';`|
-|`inrc→`|`import React, { Component } from 'react';`|
-|`inrn→`|`import { $1 } from 'react-native';`|
+|`imr→`|`import React from 'react';`|
+|`imrc→`|`import React, { Component } from 'react';`|
+|`imrn→`|`import { $1 } from 'react-native';`|
 |`imrpc→`|`import React, { PureComponent } from 'react';`|
 
 
@@ -70,12 +70,12 @@ Every space inside `{ };` and `( )` means that this is pushed into next line :)
 |`just→`|`justifyContent: '';`|
 |`align→`|`alignItems: '${1}';`|
 |`as→`|`aspectRatio: '';`|
-|`border→`|`borderWidth: ;`|
+|`bor→`|`borderWidth: ;`|
 |`flex→`|`flexDirection: '';`|
 |`h→`|`height: ;`|
 |`w→`|`width: ;`|
 |`l→`|`left: '';`|
-|`margin→`|`marginHorizontal: '';`|
+|`mar→`|`marginHorizontal: '';`|
 |`max→`|`maxWidth: ;`|
 |`min→`|`minWidth: ;`|
 |`over→`|`overflow: ;`|

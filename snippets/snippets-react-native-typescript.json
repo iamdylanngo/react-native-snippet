@@ -263,77 +263,77 @@
     "description": "aspectRatio"
   },
   "borderBottomWidth": {
-    "prefix": "border",
+    "prefix": "bor",
     "body": "borderBottomWidth: ${1},",
     "description": "borderBottomWidth"
   },
   "borderLeftWidth": {
-    "prefix": "border",
+    "prefix": "bor",
     "body": "borderLeftWidth: ${1},",
     "description": "borderLeftWidth"
   },
   "borderRightWidth": {
-    "prefix": "border",
+    "prefix": "bor",
     "body": "borderRightWidth: ${1},",
     "description": "borderRightWidth"
   },
   "borderTopWidth": {
-    "prefix": "border",
+    "prefix": "bor",
     "body": "borderTopWidth: ${1},",
     "description": "borderTopWidth"
   },
   "borderWidth": {
-    "prefix": "border",
+    "prefix": "bor",
     "body": "borderWidth: ${1},",
     "description": "borderWidth"
   },
   "borderColor": {
-    "prefix": "border",
+    "prefix": "bor",
     "body": "borderColor: ${1},",
     "description": "borderColor"
   },
   "borderRadius": {
-    "prefix": "border",
+    "prefix": "bor",
     "body": "borderRadius: ${1},",
     "description": "borderRadius"
   },
   "borderLeftColor": {
-    "prefix": "border",
+    "prefix": "bor",
     "body": "borderLeftColor: ${1},",
     "description": "borderLeftColor"
   },
   "borderRightColor": {
-    "prefix": "border",
+    "prefix": "bor",
     "body": "borderRightColor: ${1},",
     "description": "borderRightColor"
   },
   "borderTopColor": {
-    "prefix": "border",
+    "prefix": "bor",
     "body": "borderTopColor: ${1},",
     "description": "borderTopColor"
   },
   "borderBottomColor": {
-    "prefix": "border",
+    "prefix": "bor",
     "body": "borderBottomColor: ${1},",
     "description": "borderBottomColor"
   },
   "borderBottomLeftRadius": {
-    "prefix": "border",
+    "prefix": "bor",
     "body": "borderBottomLeftRadius: ${1},",
     "description": "borderBottomLeftRadius"
   },
   "borderBottomRightRadius": {
-    "prefix": "border",
+    "prefix": "bor",
     "body": "borderBottomRightRadius: ${1},",
     "description": "borderBottomRightRadius"
   },
   "borderTopLeftRadius": {
-    "prefix": "border",
+    "prefix": "bor",
     "body": "borderTopLeftRadius: ${1},",
     "description": "borderTopLeftRadius"
   },
   "borderTopRightRadius": {
-    "prefix": "border",
+    "prefix": "bor",
     "body": "borderTopRightRadius: ${1},",
     "description": "borderTopRightRadius"
   },
@@ -438,37 +438,37 @@
     "description": "left"
   },
   "margin": {
-    "prefix": "margin",
+    "prefix": "mar",
     "body": "margin: '${1}',",
     "description": "margin"
   },
   "marginBottom": {
-    "prefix": "margin",
+    "prefix": "mar",
     "body": "marginBottom: ${1},",
     "description": "marginBottom"
   },
   "marginHorizontal": {
-    "prefix": "margin",
+    "prefix": "mar",
     "body": "marginHorizontal: '${1}',",
     "description": "marginHorizontal"
   },
   "marginLeft": {
-    "prefix": "margin",
+    "prefix": "mar",
     "body": "marginLeft: ${1},",
     "description": "marginLeft"
   },
   "marginRight": {
-    "prefix": "margin",
+    "prefix": "mar",
     "body": "marginRight: ${1},",
     "description": "marginRight"
   },
   "marginTop": {
-    "prefix": "margin",
+    "prefix": "mar",
     "body": "marginTop: ${1},",
     "description": "marginTop"
   },
   "marginVertical": {
-    "prefix": "margin",
+    "prefix": "mar",
     "body": "marginVertical: '${1}',",
     "description": "marginVertical"
   },
@@ -630,9 +630,19 @@
     ],
     "description": "import React, { Component } from 'react';"
   },
+  "Import React-Native Element": {
+    "prefix": "imrn",
+    "body": "import { $1 } from 'react-native';",
+    "description": "Import React-Native Element"
+  },
   "import React, { Component } & PropTypes": {
     "prefix": "imrcp",
     "body": [
+      "import React, { Component } from 'react';",
+      "import PropTypes from 'prop-types';",
+      ""
+    ],
+    "description": [
       "import React, { Component } from 'react';",
       "import PropTypes from 'prop-types';",
       ""
@@ -649,6 +659,11 @@
   "import React, { PureComponent } & PropTypes": {
     "prefix": "imrpcp",
     "body": [
+      "import React, { PureComponent } from 'react';",
+      "import PropTypes from 'prop-types';",
+      ""
+    ],
+    "description": [
       "import React, { PureComponent } from 'react';",
       "import PropTypes from 'prop-types';",
       ""
