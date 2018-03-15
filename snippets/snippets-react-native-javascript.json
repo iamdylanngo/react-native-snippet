@@ -264,7 +264,7 @@
   },
   "marginHorizontal": {
     "prefix": "mar",
-    "body": "marginHorizontal: '${1}',",
+    "body": "marginHorizontal: ${1},",
     "description": "marginHorizontal"
   },
   "marginLeft": {
@@ -284,7 +284,7 @@
   },
   "marginVertical": {
     "prefix": "mar",
-    "body": "marginVertical: '${1}',",
+    "body": "marginVertical: ${1},",
     "description": "marginVertical"
   },
   "maxHeight": {
