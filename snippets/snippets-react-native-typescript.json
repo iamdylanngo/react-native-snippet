@@ -439,7 +439,7 @@
   },
   "margin": {
     "prefix": "mar",
-    "body": "margin: '${1}',",
+    "body": "margin: ${1},",
     "description": "margin"
   },
   "marginBottom": {
@@ -449,7 +449,7 @@
   },
   "marginHorizontal": {
     "prefix": "mar",
-    "body": "marginHorizontal: '${1}',",
+    "body": "marginHorizontal: ${1},",
     "description": "marginHorizontal"
   },
   "marginLeft": {
@@ -720,7 +720,7 @@
     "body": [
       "import React from 'react';",
       "",
-      "const ${1:componentName} = () => {",
+      "const ${1:componentName} = (props) => {",
       "  return (",
       "    <div>",
       "      $0",
@@ -1297,7 +1297,7 @@
   "PropTypes": {
     "prefix": "pt",
     "body": [
-      "${1}.PropTypes = {",
+      "${1}.propTypes = {",
       "",
       "};"
     ],

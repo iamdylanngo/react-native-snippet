@@ -141,7 +141,7 @@ Every space inside `{ };` and `( )` means that this is pushed into next line :)
 |Prefix|Method|
 |-------:|-------|
 |`ipt`|`import PropTypes from 'prop-types';`|
-|`pt→`|`Component.PropTypes = {};`|
+|`pt→`|`Component.propTypes = {};`|
 |`dfp`|`Component.defaultProps = {};`|
 |`pta→`|`PropTypes.array`|
 |`ptar→`|`PropTypes.array.isRequired`|
