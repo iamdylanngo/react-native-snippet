@@ -111,6 +111,7 @@
     "prefix": "tsrnsl",
     "body": [
       "import * as React from 'react';",
+      "import { View, Text } from 'react-native';",
       "",
       "export interface ${1:App}Props {",
       "}",
