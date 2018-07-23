@@ -21,11 +21,11 @@ Here is direct link to marketplace [React Native, StyleSheet, ReactJS, Redux Sni
 ## Supported languages (file extensions)
 
 * JavaScript (.js)
-* ReactJs (.js)
 * Redux (.js)
+* ReactJS (.jsx)
 * React Native (.jsx)
 * React Native StyleSheet (.jsx)
-* Typescript ReactJS (.tsx)
+* TypeScript ReactJS (.tsx)
 * Typescript React Native (.tsx)
 
 
@@ -197,244 +197,14 @@ export default compose(
 |`cwa→`|`console.warn`|
 |`cin→`|`console.info`|
 
-## React Components
-
-### `rcc`
-
-```javascript
-import React, { Component } from 'react'
-
-export default class $1 extends Component {
-  render() {
-    return (
-      <div>
-        $2
-      </div>
-    )
-  }
-}
-```
-
-### `rce`
-
-```javascript
-import React, { Component } from 'react'
-
-export class $1 extends Component {
-  render() {
-    return (
-      <div>
-        $2
-      </div>
-    )
-  }
-}
-
-export default $1
-```
-
-### `rcep`
-
-```javascript
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
-
-export class $1 extends Component {
-  static propTypes = {
-
-  }
-
-  render() {
-    return (
-      <div>
-        $2
-      </div>
-    )
-  }
-}
-
-export default $1
-```
-
-### `rpc`
-
-```javascript
-import React, { PureComponent } from 'react'
-
-export default class $1 extends PureComponent {
-  render() {
-    return (
-      <div>
-        $2
-      </div>
-    )
-  }
-}
-```
-
-### `rpcp`
-
-```javascript
-import React, { PureComponent } from 'react'
-import PropTypes from 'prop-types'
-
-export default class $1 extends PureComponent {
-  static propTypes = {
-
-  }
-
-  render() {
-    return (
-      <div>
-        $2
-      </div>
-    )
-  }
-}
-```
-
-### `rccp`
-
-```javascript
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
-
-export default class $1 extends Component {
-  static propTypes = {
-    $2: $3
-  }
-
-  render() {
-    return (
-      <div>
-        $4
-      </div>
-    )
-  }
-}
-```
-
-### `rfe`
-
-```javascript
-import React from 'react'
-
-const $1 = (props) => {
-  return (
-    <div>
-      $0
-    </div>
-  )
-}
-
-export default $1
-```
-
-### `rfep`
-
-```javascript
-import React from 'react'
-import PropTypes from 'prop-types'
-
-const $1 = (props) => {
-  return (
-    <div>
-      $0
-    </div>
-  )
-}
-
-$1.propTypes = {
-
-}
-
-export default $1
-```
-
-### `rfc`
-
-```javascript
-import React from 'react'
-
-export default () => {
-  return (
-    <div>
-      $0
-    </div>
-  )
-}
-```
-
-### `rfcp`
-
-```javascript
-import React from 'react'
-import PropTypes from 'prop-types'
-
-export default () => {
-  return (
-    <div>
-      $0
-    </div>
-  )
-}
-
-$1.propTypes = {
-
-}
-```
-
-### `rcredux`
-
-```javascript
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
-import { connect } from 'react-redux'
-
-export class $1 extends Component {
-  static propTypes = {
-    $2: $3
-  }
-
-  render() {
-    return (
-      <div>
-        $4
-      </div>
-    )
-  }
-}
-
-const mapStateToProps = (state) => ({
-
-})
-
-const mapDispatchToProps = {
-
-}
-
-export default connect(mapStateToProps, mapDispatchToProps)($1)
-```
-
-### `reduxmap`
-
-```javascript
-const mapStateToProps = (state) => ({
-
-})
-
-const mapDispatchToProps = {
-
-}
-```
 
 ## React Native Components
 
 ### `rnc`
 
 ```javascript
-import React, { Component } from 'react'
-import { Text, View } from 'react-native'
+import React, { Component } from 'react';
+import { Text, View } from 'react-native';
 
 export default class $1 extends Component {
   render() {
@@ -450,8 +220,8 @@ export default class $1 extends Component {
 ### `rnce`
 
 ```javascript
-import React, { Component } from 'react'
-import { Text, View } from 'react-native'
+import React, { Component } from 'react';
+import { Text, View } from 'react-native';
 
 export class $1 extends Component {
   render() {
@@ -464,6 +234,62 @@ export class $1 extends Component {
 }
 
 export default $1
+```
+
+### `rnpc`
+
+```javascript
+import React, { PureComponent } from 'react';
+import { Text, View } from 'react-native';
+
+export default class $1 extends PureComponent {
+  render() {
+    return (
+      <View>
+        <Text> $2 </Text>
+      </View>
+    )
+  }
+}
+
+```
+
+
+### `rnpce`
+
+```javascript
+import React, { PureComponent } from 'react';
+import { Text, View } from 'react-native';
+
+export class $1 extends PureComponent {
+  render() {
+    return (
+      <View>
+        <Text> $2 </Text>
+      </View>
+    )
+  }
+}
+
+export default $1
+```
+
+
+### `rncsl`
+
+```javascript
+import React from 'react';
+import { Text, View } from 'react-native';
+
+const $1 = ({
+    params1,
+}) => (
+    <View>
+        <Text>$2</Text>
+    </View>
+);
+
+export default $1;
 ```
 
 

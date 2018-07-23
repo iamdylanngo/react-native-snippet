@@ -125,7 +125,7 @@
     "description": "Create a React PureComponent without import and export."
   },
   "React Pure Function Component": {
-    "prefix": "tsrnpc",
+    "prefix": "pf",
     "body": [
       "import * as React from 'react';",
       "",
@@ -567,8 +567,28 @@
     "body": "barStyle = '${1:light-content}'",
     "description": "barStyle"
   },
+
   // ==========================================================================================================================
   // Redux
+  "import redux statement": {
+    "prefix": "rx",
+    "body": [
+      "import { connect } from 'react-redux';",
+      ""
+    ],
+    "description": "import { connect } from 'react-redux';"
+  },
+  "mappingToProps": {
+    "prefix": "rxmap",
+    "body": [
+      "const mapStateToProps = (state) => ({",
+      "",    
+      "});",
+      "const mapDispatchToProps = (dispatch) => ({",
+      "",  
+      "});"
+    ]
+  },
   "reduxAction": {
     "prefix": "rxaction",
     "body": [
@@ -666,266 +686,6 @@
     "description": [
       "import React, { PureComponent } from 'react';",
       "import PropTypes from 'prop-types';",
-      ""
-    ]
-  },
-  "import redux statement": {
-    "prefix": "redux",
-    "body": [
-      "import { connect } from 'react-redux';",
-      ""
-    ],
-    "description": "import { connect } from 'react-redux';"
-  },
-  "reactClassCompoment": {
-    "prefix": "rcc",
-    "body": [
-      "import React, { Component } from 'react';",
-      "",
-      "export default class ${1:componentName} extends Component {",
-      "  render() {",
-      "    return (",
-      "      <div>",
-      "        $0",
-      "      </div>",
-      "    )",
-      "  }",
-      "};",
-      ""
-    ],
-    "description": "Creates a React component class with ES7 module system"
-  },
-  "reactClassExportComponent": {
-    "prefix": "rce",
-    "body": [
-      "import React, { Component } from 'react';",
-      "",
-      "export class ${1:componentName} extends Component {",
-      "  render() {",
-      "    return (",
-      "      <div>",
-      "        $0",
-      "      </div>",
-      "    )",
-      "  }",
-      "};",
-      "",
-      "export default ${1:componentName};",
-      ""
-    ],
-    "description": "Creates a React component class with ES7 module system"
-  },
-  "reactFunctionalExportComponent": {
-    "prefix": "rfe",
-    "body": [
-      "import React from 'react';",
-      "",
-      "const ${1:componentName} = () => {",
-      "  return (",
-      "    <div>",
-      "      $0",
-      "    </div>",
-      "  )",
-      "};",
-      "",
-      "export default ${1:componentName};",
-      ""
-    ],
-    "description": "Creates a React Functional Component with ES7 module system"
-  },
-  "reactFunctionalExportComponentWithPropTypes": {
-    "prefix": "rfep",
-    "body": [
-      "import React from 'react';",
-      "import PropTypes from 'prop-types';",
-      "",
-      "const ${1:componentName} = () => {",
-      "  return (",
-      "    <div>",
-      "      $0",
-      "    </div>",
-      "  )",
-      "};",
-      "",
-      "${1:componentName}.propTypes = {",
-      "",
-      "};",
-      "",
-      "export default ${1:componentName};",
-      ""
-    ],
-    "description": "Creates a React Functional Component with ES7 module system with PropTypes"
-  },
-  "reactFunctionalComponent": {
-    "prefix": "rfc",
-    "body": [
-      "import React from 'react';",
-      "",
-      "export default () => {",
-      "  return (",
-      "    <div>",
-      "      $0",
-      "    </div>",
-      "  )",
-      "};",
-      ""
-    ],
-    "description": "Creates a React Functional Component with ES7 module system"
-  },
-  "reactFunctionalComponentWithPropTypes": {
-    "prefix": "rfcp",
-    "body": [
-      "import React from 'react';",
-      "import PropTypes from 'prop-types';",
-      "",
-      "export default () => {",
-      "  return (",
-      "    <div>",
-      "      $0",
-      "    </div>",
-      "  )",
-      "};",
-      "",
-      "${1:componentName}.propTypes = {",
-      "",
-      "};",
-      ""
-    ],
-    "description": "Creates a React Functional Component with ES7 module system with PropTypes"
-  },
-  "reactClassExportComponentWithPropTypes": {
-    "prefix": "rcep",
-    "body": [
-      "import React, { Component } from 'react';",
-      "import PropTypes from 'prop-types';",
-      "",
-      "export class ${1:componentName} extends Component {",
-      "  static propTypes = {",
-      "",
-      "  }",
-      "",
-      "  render() {",
-      "    return (",
-      "      <div>",
-      "        $0",
-      "      </div>",
-      "    )",
-      "  }",
-      "};",
-      "",
-      "export default ${1:componentName};",
-      ""
-    ],
-    "description": "Creates a React component class with ES7 module system"
-  },
-  "reactClassPureComponent": {
-    "prefix": "rpc",
-    "body": [
-      "import React, { PureComponent } from 'react';",
-      "",
-      "export default class ${1:componentName} extends PureComponent {",
-      "  render() {",
-      "    return (",
-      "      <div>",
-      "        $0",
-      "      </div>",
-      "    )",
-      "  }",
-      "};",
-      ""
-    ],
-    "description": "Creates a React component class with ES7 module system"
-  },
-  "reactClassPureComponentWithPropTypes": {
-    "prefix": "rpcp",
-    "body": [
-      "import React, { PureComponent } from 'react';",
-      "import PropTypes from 'prop-types';",
-      "",
-      "export default class ${1:componentName} extends PureComponent {",
-      "  static propTypes = {",
-      "",
-      "  }",
-      "",
-      "  render() {",
-      "    return (",
-      "      <div>",
-      "        $0",
-      "      </div>",
-      "    )",
-      "  }",
-      "};",
-      ""
-    ],
-    "description": "Creates a React component class with ES7 module system"
-  },
-  "reactClassCompomentPropTypes": {
-    "prefix": "rccp",
-    "body": [
-      "import React, { Component } from 'react';",
-      "import PropTypes from 'prop-types';",
-      "",
-      "export default class ${1:componentName} extends Component {",
-      "  static propTypes = {",
-      "    ${2:prop}: ${3:PropTypes}",
-      "  }",
-      "",
-      "  render() {",
-      "    return (",
-      "      <div>",
-      "        $0",
-      "      </div>",
-      "    )",
-      "  }",
-      "};",
-      ""
-    ],
-    "description": "Creates a React component class with PropTypes and ES7 module system"
-  },
-  "reactClassCompomentRedux": {
-    "prefix": "rcredux",
-    "body": [
-      "import React, { Component } from 'react';",
-      "import PropTypes from 'prop-types';",
-      "import { connect } from 'react-redux';",
-      "",
-      "export class ${1:componentName} extends Component {",
-      "  static propTypes = {",
-      "    ${2:prop}: ${3:PropTypes}",
-      "  };",
-      "",
-      "  render() {",
-      "    return (",
-      "      <div>",
-      "        $0",
-      "      </div>",
-      "    )",
-      "  };",
-      "};",
-      "",
-      "const mapStateToProps = (state) => ({",
-      "  ",
-      "})",
-      "",
-      "const mapDispatchToProps = {",
-      "  ",
-      "};",
-      "",
-      "export default connect(mapStateToProps, mapDispatchToProps)(${1:componentName})",
-      ""
-    ],
-    "description": "Creates a React component class with PropTypes with connected redux and ES7 module system"
-  },
-  "mappingToProps": {
-    "prefix": "reduxmap",
-    "body": [
-      "const mapStateToProps = (state) => ({",
-      "  ${1}",
-      "})",
-      "",
-      "const mapDispatchToProps = {",
-      "  ",
-      "};",
       ""
     ]
   },
@@ -1049,15 +809,7 @@
     ],
     "description": "Performs a shallow merge of nextState into current state"
   },
-  "componentProps": {
-    "prefix": "props",
-    "body": "this.props.$0",
-    "description": "Access component's props"
-  },
-  "componentState": {
-    "prefix": "state",
-    "body": "this.state.$0"
-  },
+
   // ==========================================================================================================================
   // BASIC ES7 JS
   "import": {
