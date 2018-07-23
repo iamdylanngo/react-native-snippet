@@ -200,6 +200,7 @@ export default compose(
 
 ## React Native Components
 
+
 ### `rnc`
 
 ```javascript
@@ -207,6 +208,12 @@ import React, { Component } from 'react';
 import { Text, View } from 'react-native';
 
 export default class $1 extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+    };
+  }
+
   render() {
     return (
       <View>
@@ -217,6 +224,7 @@ export default class $1 extends Component {
 }
 ```
 
+
 ### `rnce`
 
 ```javascript
@@ -224,6 +232,12 @@ import React, { Component } from 'react';
 import { Text, View } from 'react-native';
 
 export class $1 extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+    };
+  }
+
   render() {
     return (
       <View>
@@ -236,6 +250,7 @@ export class $1 extends Component {
 export default $1
 ```
 
+
 ### `rnpc`
 
 ```javascript
@@ -243,6 +258,12 @@ import React, { PureComponent } from 'react';
 import { Text, View } from 'react-native';
 
 export default class $1 extends PureComponent {
+  constructor(props) {
+    super(props);
+    this.state = {
+    };
+  }
+
   render() {
     return (
       <View>
@@ -251,7 +272,6 @@ export default class $1 extends PureComponent {
     )
   }
 }
-
 ```
 
 
@@ -261,7 +281,13 @@ export default class $1 extends PureComponent {
 import React, { PureComponent } from 'react';
 import { Text, View } from 'react-native';
 
-export class $1 extends PureComponent {
+class $1 extends PureComponent {
+  constructor(props) {
+    super(props);
+    this.state = {
+    };
+  }
+
   render() {
     return (
       <View>
@@ -305,11 +331,15 @@ export interface $1Props {
 }
 
 export default class $1 extends React.Component<$1Props, any> {
+  constructor(props: $1Props) {
+    super(props);
+  }
+
   render() {
     return (
       <View>
          <Text>
-           
+          $2
          </Text>
       </View>
     );
@@ -333,16 +363,14 @@ export interface $1State {
 export default class $1 extends React.Component<$1Props, $1State> {
   constructor(props: $1Props) {
     super(props);
-        this.state = {
-    }
+    this.state = {
+    };
   }
 
   render() {
     return (
       <View>
-         <Text>
-           $1
-         </Text>
+         <Text>$1</Text>
       </View>
     );
   }
@@ -354,26 +382,21 @@ export default class $1 extends React.Component<$1Props, $1State> {
 
 ```javascript
 import * as React from 'react';
-import { View, StyleSheet, Text, } from 'react-native';
+import { View, StyleSheet, Text } from 'react-native';
 
-export interface $1Props {
+export interface AppProps {
 }
 
-export interface $1State {
-}
-
-export default class $1 extends React.Component<$1Props, $1State> {
-  constructor(props: $1Props) {
+export default class App extends React.PureComponent<AppProps, any> {
+  constructor(props: AppProps) {
     super(props);
-        this.state = {
-    }
   }
 
-  render() {
+  public render() {
     return (
       <View>
          <Text>
-           $1
+           App
          </Text>
       </View>
     );
@@ -382,32 +405,10 @@ export default class $1 extends React.Component<$1Props, $1State> {
 ```
 
 
-### `tsrnc`
+### `tsrncsl`
 
 ```javascript
-import * as React from 'react';
-import { View, StyleSheet, Text, } from 'react-native';
-import { connect } from 'react-redux';
 
-export interface $1Props {
-}
-
-class $1 extends React.Component<$1Props, any> {
-    render() {
-        return (
-            <View>
-                <Text>$1</Text>
-            </View>
-        );
-    }
-}
-
-const mapState2Props = state => {
-    return {
-    };
-}
-
-export default connect(mapState2Props)($1);
 ```
 
 
