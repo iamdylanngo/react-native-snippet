@@ -117,7 +117,7 @@
       "export default ${1:componentName};",
       ""
     ],
-    "description": "React Native component stateless with children"
+    "description": "React Native component stateless with view children"
   },
 
   // ==========================================================================================================================
