@@ -5,9 +5,15 @@
     "prefix": "rnc",
     "body": [
       "import React, { Component } from 'react';",
-      "import { View, Text, } from 'react-native';",
+      "import { View, Text } from 'react-native';",
       "",
       "export default class ${1:componentName} extends Component {",
+      "  constructor(props) {",
+      "    super(props);",
+      "    this.state = {",
+      "    };",
+      "  }",
+      "",
       "  render() {",
       "    return (",
       "      <View>",
@@ -24,9 +30,15 @@
     "prefix": "rnce",
     "body": [
       "import React, { Component } from 'react';",
-      "import { View, Text,  } from 'react-native';",
+      "import { View, Text } from 'react-native';",
       "",
       "class ${1:componentName} extends Component {",
+      "  constructor(props) {",
+      "    super(props);",
+      "    this.state = {",
+      "    };",
+      "  }",
+      "",
       "  render() {",
       "    return (",
       "      <View>",
@@ -45,9 +57,15 @@
     "prefix": "rnpc",
     "body": [
       "import React, { PureComponent } from 'react';",
-      "import {  View, Text, } from 'react-native';",
+      "import {  View, Text } from 'react-native';",
       "",
       "export default class ${0:componentName} extends PureComponent {",
+      "  constructor(props) {",
+      "    super(props);",
+      "    this.state = {",
+      "    };",
+      "  }",
+      "",
       "  render() {",
       "    return (",
       "      <View>",
@@ -64,9 +82,15 @@
     "prefix": "rnpce",
     "body": [
       "import React, { PureComponent } from 'react';",
-      "import {  View, Text, } from 'react-native';",
+      "import {  View, Text } from 'react-native';",
       "",
       "class ${1:componentName} extends PureComponent {",
+      "  constructor(props) {",
+      "    super(props);",
+      "    this.state = {",
+      "    };",
+      "  }",
+      "",
       "  render() {",
       "    return (",
       "      <View>",
@@ -88,10 +112,10 @@
       "import { Text, View } from 'react-native';",
       "",
       "const ${1:componentName} = ({",
-      "    params1,",
+      "    ${2:params},",
       "}) => (",
       "    <View>",
-      "        <Text>${2:TextName}</Text>",
+      "        <Text>${1:textName}</Text>",
       "    </View>",
       ");",
       "",
@@ -119,7 +143,6 @@
     ],
     "description": "React Native component stateless with view children"
   },
-
   // ==========================================================================================================================
   // Style Sheet
   "StyleSheet Style": {
@@ -461,7 +484,6 @@
     "body": "barStyle = '${1:light-content}'",
     "description": "barStyle"
   },
-  
   // ==========================================================================================================================
   // Redux
   "import redux statement": {
@@ -476,10 +498,10 @@
     "prefix": "rxmap",
     "body": [
       "const mapStateToProps = (state) => ({",
-      "",    
+      "",
       "});",
       "const mapDispatchToProps = (dispatch) => ({",
-      "",  
+      "",
       "});"
     ]
   },
@@ -698,9 +720,6 @@
     ],
     "description": "Performs a shallow merge of nextState into current state"
   },
-  
-  
-  
   // ==========================================================================================================================
   // BASIC ES7 JS
   "import": {
@@ -930,7 +949,6 @@
     "body": "console.info(${1:object})",
     "description": "Displays a message in the console but also displays a blue information icon along with the logged message"
   },
-
   // ==========================================================================================================================
   // PropTypes
   "ImportPropTypes": {
@@ -1084,7 +1102,7 @@
     "body": "PropTypes.arrayOf($0).isRequired,",
     "description": "AcomponentNamen array of a certain type required"
   },
-    "propTypeObjectOf": {
+  "propTypeObjectOf": {
     "prefix": "ptoo",
     "body": "PropTypes.objectOf($0),",
     "description": "An object with property values of a certain type"
@@ -1205,9 +1223,9 @@
       "import ${1:ComponentName} from '../${1:ComponentName}';",
       "",
       "it('renders correctly', () =>{",
-        "const tree = renderer.create(<${1:ComponentName} />).toJSON()",
+      "const tree = renderer.create(<${1:ComponentName} />).toJSON()",
       "",
-        "expect(tree).toMatchSnapshot()",
+      "expect(tree).toMatchSnapshot()",
       "})",
       ""
     ]

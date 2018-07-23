@@ -1,17 +1,21 @@
 {
   // ==========================================================================================================================
   // React Native Typescript
-  "React Component": {
+  "React Component With Props": {
     "prefix": "tsrnc",
     "body": [
       "import * as React from 'react';",
-      "import { View, StyleSheet, Text, } from 'react-native';",
+      "import { View, StyleSheet, Text } from 'react-native';",
       "",
       "export interface ${1:App}Props {",
       "}",
       "",
       "export default class ${1:}Component extends React.Component<${1:}Props, any> {",
-      "  render() {",
+      "  constructor(props: ${1:App}Props) {",
+      "    super(props);",
+      "  }",
+      "",
+      "  public render() {",
       "    return (",
       "      <View>",
       "         <Text>",
@@ -23,13 +27,13 @@
       "}",
       ""
     ],
-    "description": "Create a React Component with typescript."
+    "description": "Create a React Component use only Props"
   },
   "React Component - Full": {
-    "prefix": "tsrncf",
+    "prefix": "tsrnc",
     "body": [
       "import * as React from 'react';",
-      "import { View, StyleSheet, Text, } from 'react-native';",
+      "import { View, StyleSheet, Text } from 'react-native';",
       "",
       "export interface ${1:App}Props {",
       "}",
@@ -38,13 +42,12 @@
       "}",
       "",
       "export default class ${1:}Component extends React.Component<${1:}Props, ${1:}State> {",
-      "  constructor(props: ${1:}Props) {",
+      "  constructor(props: ${1:App}Props) {",
       "    super(props);",
-      "        this.state = {",
-      "        }",
+      "    this.state = {",
+      "    };",
       "  }",
-      "",
-      "  render() {",
+      "  public render() {",
       "    return (",
       "      <View>",
       "         <Text>",
@@ -65,7 +68,11 @@
       "}",
       "",
       "class ${1:} extends React.Component<${1:}Props, any> {",
-      "  render() {",
+      "  constructor(props: ${1:App}Props) {",
+      "    super(props);",
+      "  }",
+      "",
+      "  public render() {",
       "    return (",
       "      <View>",
       "         <Text>",
@@ -77,40 +84,23 @@
       "}",
       ""
     ],
-    "description": "Create a React Component without import and export."
+    "description": "Create a React Component use only Props without import and export."
   },
   "React PureComponent": {
     "prefix": "tsrnpc",
     "body": [
       "import * as React from 'react';",
-      "import { View, StyleSheet, Text, } from 'react-native';",
+      "import { View, StyleSheet, Text } from 'react-native';",
       "",
       "export interface ${1:App}Props {",
       "}",
       "",
       "export default class ${1:} extends React.PureComponent<${1:}Props, any> {",
-      "  render() {",
-      "    return (",
-      "      <View>",
-      "         <Text>",
-      "           ${1:}",
-      "         </Text>",
-      "      </View>",
-      "    );",
+      "  constructor(props: ${1:App}Props) {",
+      "    super(props);",
       "  }",
-      "}",
-      ""
-    ],
-    "description": "Create a React PureComponent."
-  },
-  "React PureComponent without import and export": {
-    "prefix": "tsrnpc",
-    "body": [
-      "export interface ${1:App}Props {",
-      "}",
       "",
-      "class ${1:} extends React.PureComponent<${1:}Props, any> {",
-      "  render() {",
+      "  public render() {",
       "    return (",
       "      <View>",
       "         <Text>",
@@ -122,10 +112,10 @@
       "}",
       ""
     ],
-    "description": "Create a React PureComponent without import and export."
+    "description": "Create a React PureComponent use ony Props"
   },
-  "React Pure Function Component": {
-    "prefix": "pf",
+  "React Stateless Component": {
+    "prefix": "tsrnsl",
     "body": [
       "import * as React from 'react';",
       "",
@@ -143,10 +133,10 @@
       "}",
       ""
     ],
-    "description": "Create a React Pure Function Component."
+    "description": "Create a React Stateless Component."
   },
   "React Stateless Functional Component": {
-    "prefix": "tsrnc",
+    "prefix": "tsrnsl",
     "body": [
       "import * as React from 'react';",
       "",
@@ -198,7 +188,7 @@
     "prefix": "tsrnc",
     "body": [
       "import * as React from 'react';",
-      "import { View, StyleSheet, Text, } from 'react-native';",
+      "import { View, StyleSheet, Text } from 'react-native';",
       "import { connect } from 'react-redux';",
       "",
       "export interface ${1:App}Props {",
@@ -226,7 +216,6 @@
     ],
     "description": "React Redux container"
   },
-
   // ==========================================================================================================================
   // Style Sheet
   "StyleSheet Style": {
@@ -567,7 +556,6 @@
     "body": "barStyle = '${1:light-content}'",
     "description": "barStyle"
   },
-
   // ==========================================================================================================================
   // Redux
   "import redux statement": {
@@ -582,10 +570,10 @@
     "prefix": "rxmap",
     "body": [
       "const mapStateToProps = (state) => ({",
-      "",    
+      "",
       "});",
       "const mapDispatchToProps = (dispatch) => ({",
-      "",  
+      "",
       "});"
     ]
   },
@@ -809,7 +797,6 @@
     ],
     "description": "Performs a shallow merge of nextState into current state"
   },
-
   // ==========================================================================================================================
   // BASIC ES7 JS
   "import": {
