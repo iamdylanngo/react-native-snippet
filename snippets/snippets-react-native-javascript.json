@@ -959,7 +959,7 @@
   "PropTypes": {
     "prefix": "pt",
     "body": [
-      "${1}.PropTypes = {",
+      "${1}.propTypes = {",
       "",
       "};"
     ],
