@@ -22,7 +22,7 @@ Here is direct link to marketplace [React Native, StyleSheet, ReactJS, Redux Sni
 
 * JavaScript (.js)
 * Redux (.js)
-* ReactJS (.jsx)
+* ReactJS (.js)
 * React Native (.js)
 * React Native StyleSheet (.jsx)
 * TypeScript ReactJS (.tsx)
