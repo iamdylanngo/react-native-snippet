@@ -20,3 +20,14 @@
     - Edit Readme
 
 
+## 0.4.9
+
+### Minor
+
+    
+
+### Patch
+    
+    - Add lorem ipsum readme
+
+
