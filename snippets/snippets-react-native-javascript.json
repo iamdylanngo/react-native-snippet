@@ -430,6 +430,40 @@
   },
   // ==========================================================================================================================
   // React
+    "reactComponent": {
+    "prefix": "rc",
+    "body": [
+      "import React, { Component } from 'react';",
+      "",
+      "export default class ${1:componentName} extends Component {",
+      "  render() {",
+      "    return (",
+      "      <div> ${2:textInComponent} </div>",
+      "    );",
+      "  }",
+      "}",
+      ""
+    ],
+    "description": "React Component"
+  },
+  "reactComponentExport": {
+    "prefix": "rce",
+    "body": [
+      "import React, { Component } from 'react';",
+      "",
+      "class ${1:componentName} extends Component {",
+      "  render() {",
+      "    return (",
+      "      <div> ${2:textInComponent} </div>",
+      "    );",
+      "  }",
+      "}",
+      "",
+      "export default ${1:componentName};",
+      ""
+    ],
+    "description": "React Component Export"
+  },  
   "import React": {
     "prefix": "imr",
     "body": [
