@@ -1,12 +1,21 @@
-## 0.4.7
+## 0.5.0
 
 ### Minor
 
-    - Fix snippet typescript
+### Patch
+    
+    - Edit readme
+
+
+
+## 0.4.9
+
+### Minor
 
 ### Patch
+    
+    - Add lorem ipsum readme
 
-    - Edit Readme
 
 
 ## 0.4.8
@@ -20,14 +29,16 @@
     - Edit Readme
 
 
-## 0.4.9
+
+## 0.4.7
 
 ### Minor
 
-    
+    - Fix snippet typescript
 
 ### Patch
-    
-    - Add lorem ipsum readme
+
+    - Edit Readme
+
 
 
