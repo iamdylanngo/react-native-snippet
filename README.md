@@ -77,27 +77,27 @@ Every space inside `{ };` and `( )` means that this is pushed into next line :)
 
 |Prefix|Method|
 |-------:|-------|
-|`just→`|`justifyContent: '';`|
-|`align→`|`alignItems: '${1}';`|
-|`as→`|`aspectRatio: '';`|
-|`bor→`|`borderWidth: ;`|
-|`flex→`|`flexDirection: '';`|
-|`h→`|`height: ;`|
-|`w→`|`width: ;`|
-|`l→`|`left: '';`|
-|`mar→`|`marginHorizontal: '';`|
-|`max→`|`maxWidth: ;`|
-|`min→`|`minWidth: ;`|
-|`over→`|`overflow: ;`|
-|`padding→`|`paddingHorizontal: ;`|
-|`pos→`|`position: ;`|
-|`ri→`|`right: ;`|
-|`z→`|`zIndex: ;`|
-|`di→`|`direction: ;`|
-|`back→`|`backgroundColor: ;`|
-|`sha→`|`shadowColor: ;`|
-|`op→`|`opacity: ;`|
-|`e→`|`elevation: ;`|
+|`just→`|`justifyContent: '',`|
+|`align→`|`alignItems: '${1}',`|
+|`as→`|`aspectRatio: '',`|
+|`bor→`|`borderWidth: ,`|
+|`flex→`|`flexDirection: '',`|
+|`h→`|`height: ,`|
+|`w→`|`width: ,`|
+|`l→`|`left: '',`|
+|`mar→`|`marginHorizontal: '',`|
+|`max→`|`maxWidth: ,`|
+|`min→`|`minWidth: ,`|
+|`over→`|`overflow: ,`|
+|`padding→`|`paddingHorizontal: ,`|
+|`pos→`|`position: ,`|
+|`ri→`|`right: ,`|
+|`z→`|`zIndex: ,`|
+|`di→`|`direction: ,`|
+|`back→`|`backgroundColor: ,`|
+|`sha→`|`shadowColor: ,`|
+|`op→`|`opacity: ,`|
+|`e→`|`elevation: ,`|
 
 ## React
 
