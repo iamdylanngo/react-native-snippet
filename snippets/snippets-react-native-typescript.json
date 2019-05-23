@@ -928,7 +928,7 @@
   },
   "destructingObject": {
     "prefix": "dob",
-    "body": "const {${1:propertyName}} = ${2:objectToDestruct}",
+    "body": "const {${2:propertyName}} = ${1:objectToDestruct}",
     "description": "Creates and assigns a local variable using object destructing"
   },
   "destructingArray": {
