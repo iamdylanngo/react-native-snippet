@@ -1,3 +1,12 @@
+## 0.5.2
+
+### Minor
+
+### Patch
+    
+    - Update snippet
+
+
 ## 0.5.0
 
 ### Minor
