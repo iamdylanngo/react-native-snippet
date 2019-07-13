@@ -2,6 +2,8 @@
 
 ### Minor
 
+    - Add snippet Full Region
+
 ### Patch
 
     - Fix the position of semicolon in imports when we use the last TAB

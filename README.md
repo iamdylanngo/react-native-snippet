@@ -61,6 +61,7 @@ Every space inside `{ };` and `( )` means that this is pushed into next line :)
 |`sto→`|`setTimeout(() => { }, delayTime`|
 |`prom→`|`return new Promise((resolve, reject) => { };`|
 |`cmmb→`|`comment block`|
+|`fregion→`|`full region block`|
 
 
 ## React Native JavaScript
