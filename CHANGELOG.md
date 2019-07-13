@@ -1,3 +1,11 @@
+## 0.5.3
+
+### Minor
+
+### Patch
+
+    - Fix the position of semicolon in imports when we use the last TAB
+
 ## 0.5.2
 
 ### Minor
