@@ -583,7 +583,7 @@
       ""
     ],
     "description": "React Component Export"
-  }, 
+  },
   "import React": {
     "prefix": "imr",
     "body": [
@@ -758,23 +758,23 @@
   // BASIC ES7 JS
   "import": {
     "prefix": "imp",
-    "body": "import ${2:moduleName} from '${1:module}'$0;"
+    "body": "import ${2:moduleName} from '${1:module}';$0"
   },
   "importNoModuleName": {
     "prefix": "imn",
-    "body": "import '${1:module}'$0;"
+    "body": "import '${1:module}';$0"
   },
   "importDestructing": {
     "prefix": "imd",
-    "body": "import { $2 } from '${1:module}'$0;"
+    "body": "import { $2 } from '${1:module}';$0"
   },
   "importEverything": {
     "prefix": "ime",
-    "body": "import * as ${2:alias} from '${1:module}'$0;"
+    "body": "import * as ${2:alias} from '${1:module}';$0"
   },
   "importAs": {
     "prefix": "ima",
-    "body": "import { ${2:originalName} as ${3:alias} } from '${1:module}'$0"
+    "body": "import { ${2:originalName} as ${3:alias} } from '${1:module}';$0"
   },
   "exportDefault": {
     "prefix": "exp",
@@ -782,11 +782,11 @@
   },
   "exportDestructing": {
     "prefix": "exd",
-    "body": "export { $2 } from '${1:module}'$0"
+    "body": "export { $2 } from '${1:module}';$0"
   },
   "exportAs": {
     "prefix": "exa",
-    "body": "export { ${2:originalName} as ${3:alias} } from '${1:module}'$0;"
+    "body": "export { ${2:originalName} as ${3:alias} } from '${1:module}';$0"
   },
   "exportNamedFunction": {
     "prefix": "enf",
@@ -1174,6 +1174,16 @@
       "| $1",
       "|--------------------------------------------------",
       "*/"
+    ]
+  },
+  "Full Region Block": {
+    "prefix": "fregion",
+    "body": [
+      "// #region ${1:title}",
+      "",
+      "${2}",
+      "",
+      "// #endregion $0"
     ]
   },
   // ==========================================================================================================================
