@@ -1,3 +1,12 @@
+## 0.5.4
+
+### Minor
+
+
+### Patch
+
+    - Add stylesheet for javascript snippet
+
 ## 0.5.3
 
 ### Minor
