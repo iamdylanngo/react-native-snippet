@@ -154,6 +154,11 @@
     ],
     "description": "React Native Stylesheet"
   },
+  "style={...}": {
+    "prefix": "sty",
+    "body": "style={{${1}}}",
+    "description": "styleProps"
+  },
   "justifyContent": {
     "prefix": "just",
     "body": "justifyContent: '${1:center}',",
