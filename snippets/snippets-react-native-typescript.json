@@ -1006,6 +1006,11 @@
     "body": "console.log(${1:object})",
     "description": "Displays a message in the console"
   },
+  "consoleTronLog": {
+    "prefix": "ctl",
+    "body": "console.tron.log(${1:object})",
+    "description": "Displays a message in Reactotron app"
+  },
   "consoleTrace": {
     "prefix": "ctr",
     "body": "console.trace(${1:object})",
