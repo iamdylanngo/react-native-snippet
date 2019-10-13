@@ -211,6 +211,41 @@
     ],
     "description": "React Redux container"
   },
+  "reactNativeComponentStateLess": {
+    "prefix": "rncsl",
+    "body": [
+      "import * as React from 'react';",
+      "import { Text, View, StyleSheet } from 'react-native';",
+      "",
+      "interface ${1:componentName}Props {}",
+      "",
+      "const ${1:componentName} = (props: ${1:componentName}Props) => {",
+      "  return (",
+      "    <View style={styles.container}>",
+      "      <Text>${1:componentName}</Text>",
+      "    </View>",
+      "  );",
+      "};",
+      "",
+      "export default ${1:componentName};",
+      "",
+      "const styles = StyleSheet.create({",
+      "  container: {}",
+      "});",
+      ""
+    ],
+    "description": "React Native stateless component"
+  },
+  "navigationOptions": {
+    "prefix": "navOpt",
+    "description": "Create a navigationOptions Method",
+    "body": [
+      "  public static navigationOptions = ({ navigation }: NavigationInjectedProps) => ({",
+      "    title: '${1:Title Screen}',",
+      "  });",
+      ""
+    ]
+  },
   // ==========================================================================================================================
   // Style Sheet
   "StyleSheet Style": {
@@ -1079,6 +1114,16 @@
       ""
     ],
     "description": "Testing `it` block"
+  },
+  "itAsyncBlock": {
+    "prefix": "tita",
+    "body": [
+      "it('should $1', async () => {",
+      "  $0",
+      "})",
+      ""
+    ],
+    "description": "Testing async `it` block"
   },
   "setupTest": {
     "prefix": "stest",
