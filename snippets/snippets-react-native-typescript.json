@@ -620,10 +620,10 @@
   "import React": {
     "prefix": "imr",
     "body": [
-      "import React from 'react';",
+      "import * as React from 'react';",
       ""
     ],
-    "description": "import React from 'react';"
+    "description": "import * as React from 'react';"
   },
   "import React, { Component }": {
     "prefix": "imrc",
