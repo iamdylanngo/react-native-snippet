@@ -2,7 +2,7 @@
     "name": "react-native-snippet",
     "displayName": "React Native Snippet",
     "description": "React Native, Typescript React Native, StyleSheet, Redux Snippet",
-    "version": "0.5.4",
+    "version": "0.5.5",
     "author": "Tinh Ngo",
 	"license": "MIT",
 	"repository": {
