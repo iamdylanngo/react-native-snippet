@@ -78,6 +78,7 @@ Every space inside `{ };` and `( )` means that this is pushed into next line :)
 
 |Prefix|Method|
 |-------:|-------|
+|`rnss→`|`const styles = StyleSheet.create({});`|
 |`just→`|`justifyContent: '',`|
 |`align→`|`alignItems: '${1}',`|
 |`as→`|`aspectRatio: '',`|
