@@ -131,8 +131,10 @@ Every space inside `{ };` and `( )` means that this is pushed into next line :)
 
 |Prefix|Method|
 |-------:|-------|
+|`rx→`|`import { connect } from 'react-redux';`|
 |`rxaction→`|`redux action template`|
 |`rxconst→`|`export const $1 = '$1';`|
+|`rxmap→`|`mapping to props template`|
 |`rxreducer→`|`redux reducer template`|
 |`rxselect→`|`redux selector template`|
 
